@@ -5,5 +5,9 @@ console.log("employee id is ", EmployeeID);
 let Address = "Nainital";
 Address = "Greater Noida"; // in let same variable changes // agar change karna hai toh wapis let mat likhna warna error aayega 
 let mobile_no = 9981661571;
-console.table({EmployeeID,Address,mobile_no});
-//we don't use var nowadays since it has no block scope 
+let state ; 
+console.table({EmployeeID,Address,mobile_no,state});
+//we don't use var nowadays 
+// since it has no block scope and functional scope [imp]
+
+
